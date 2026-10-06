@@ -61,30 +61,31 @@ Binary Summary
 - Prevention method usage charts
 - PowerPoint summary report
 
-Repository Structer
-├── README.md
-├── LICENSE
-├── .gitignore
-│
-├── scripts/
-│   ├── 01_data_exploration.sql
-│   ├── 02_data_quality_check.sql
-│   └── 03_statistical_summary.sql
-│
-├── excel/
-│   └── statistical_calculation.xlsx
-│
-├── charts/
-│   ├── monthly_2025/
-│   ├── monthly_2026/
-│   ├── comparison_2025_2026/
-│   ├── sex_distribution/
-│   ├── microscopy_result/
-│   ├── species_by_microscopy/
-│   ├── result_by_rdt/
-│   ├── species_by_rdt/
-│   ├── gametocyte_asexual_ratio/
-│   └── gametocyte_asexual_by_age_group/
+Repository Structure
+             ├── README.md
+             ├── LICENSE
+             ├── .gitignore
+             │
+             ├── scripts/
+             │   ├── 01_data_exploration.sql
+             │   ├── 02_data_quality_check.sql
+             │   └── 03_statistical_summary.sql
+             │
+             ├── excel/
+             │   └── statistical_calculation.xlsx
+             │
+             ├── charts/
+             │   ├── monthly_2025/
+             │   ├── monthly_2026/
+             │   ├── comparison_2025_2026/
+             │   ├── sex_distribution/
+             │   ├── microscopy_result/
+             │   ├── species_by_microscopy/
+             │   ├── result_by_rdt/
+             │   ├── species_by_rdt/
+             │   ├── gametocyte_asexual_ratio/
+             │   └── gametocyte_asexual_by_age_group/
+
        
  Tools Used
 - SQL Server 2016+ — data storage and querying
@@ -100,11 +101,11 @@ Repository Structer
 4. Run the SQL queries in the `sql/` folder in order
 5. Export results to Excel for reporting
 
- Contact
-Mr. Deneke Zewdu
-ICEMR Ethiopian Project Data Manager
-Email: danblacknote111@gmail.com
-Phone: +251948956011
+Contact
+        Mr. Deneke Zewdu
+        ICEMR Ethiopian Project Data Manager
+        Email: danblacknote111@gmail.com
+        Phone: +251948956011
 
  License
 MIT License
